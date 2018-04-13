@@ -8,7 +8,7 @@ var T = new Twit(config);
 
 num = 10;
 sendTweet()
-setInterval(sendTweet, 1000*30);
+setInterval(sendTweet, 1000*60);
 
 var stream = T.stream('user');
 
