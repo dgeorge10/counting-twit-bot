@@ -6,7 +6,7 @@ var config = require('./config');
 
 var T = new Twit(config);
 
-num = 10;
+num = 1;
 sendTweet()
 setInterval(sendTweet, 1000*60);
 
